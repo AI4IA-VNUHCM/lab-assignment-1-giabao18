@@ -29,20 +29,23 @@ int main(int argc, char *argv[])
 	}
 	//Your codes here
 	int max, min;
-	max = 0;
-	min = 0;
+	max = testcase[0];
+	min = testcase[0];
 	for (int i = 0; i < argc; i++)
 	{
 		if (testcase[i] > max)
 		{
 			max = testcase[i];
 		}
+	}
+	for (int i = 0; i < argc; i++)
+	{
 		if (testcase[i] < min)
 		{
 			min = testcase[i];
 		}
 	}
-	printf("Max:", max);
-	printf("\nMin:", min);
+	printf("Max: %d", max);
+	printf("\nMin: %d", min);
 	return 0;
 }
