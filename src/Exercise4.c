@@ -33,13 +33,13 @@ int main(int argc, char *argv[])
 		{
 			for (int j = i; j < height; j++)
 			{
-				printf("   ");
+				printf("  ");
 			}
 
 			// in ky tu ngoi sao
 			for (int j = 1; j <= (2 * i - 1); j++)
 			{
-				printf(" * ");
+				printf(" *");
 			}
 
 			// xuong dong ke tiep
@@ -49,21 +49,21 @@ int main(int argc, char *argv[])
 		{
 			for (int j = i; j < height; j++)
 			{
-				printf("   ");
+				printf("  ");
 			}
 
 			// in ky tu ngoi sao
 			for (int j = 1; j <= border; j++)
 			{
-				printf(" * ");
+				printf(" *");
 			}
 			for (int i = 0; i < count; i++)
 			{
-				printf("   ");
+				printf("  ");
 			}
 			for (int j = 1; j <= border; j++)
 			{
-				printf(" * ");
+				printf(" *");
 			}
 			// xuong dong ke tiep
 			count = count + 2;
