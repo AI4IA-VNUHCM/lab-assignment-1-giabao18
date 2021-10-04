@@ -51,6 +51,7 @@ int main(int argc, char *argv[])
 			{
 				printf("   ");
 			}
+
 			// in ky tu ngoi sao
 			for (int j = 1; j <= border; j++)
 			{
@@ -68,6 +69,6 @@ int main(int argc, char *argv[])
 			count = count + 2;
 			printf("\n");
 		}
-		return 0;
 	}
+	return 0;
 }
