@@ -43,7 +43,6 @@ int main(int argc, char *argv[])
 			}
 
 			// xuong dong ke tiep
-			printf("\n");
 		}
 		else
 		{
@@ -67,7 +66,6 @@ int main(int argc, char *argv[])
 			}
 			// xuong dong ke tiep
 			count = count + 2;
-			printf("\n");
 		}
 	}
 	return 0;
